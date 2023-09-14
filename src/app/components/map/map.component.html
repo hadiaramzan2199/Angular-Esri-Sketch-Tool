@@ -1,0 +1,5 @@
+<div #mapViewNode class="map-view"></div>
+<div class="buffer-input" *ngIf="isPointDrawn">
+<label for="radiusInput">Buffer Radius:</label>
+<input type="number" id="radiusInput" [(ngModel)]="radiusInput" (change)="onRadiusInputChange()">
+</div>

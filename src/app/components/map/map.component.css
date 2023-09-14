@@ -1,0 +1,29 @@
+.map-view {
+  width: 100%;
+  height: 100vh;
+}
+
+.buffer-input {
+  position: absolute;
+  top: 100px; /* Adjust the top position as needed */
+  left: 22px; /* Adjust the left position as needed */
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buffer-input label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.buffer-input input {
+  width: 100px; /* Set the desired width for the input field */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
